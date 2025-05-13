@@ -70,7 +70,7 @@ public class Segmento {
 	 */
 	public double distancia() {
 		
-		double x = (float) Math.pow(b.getY() - a.getX(),2);
+		double x = (float) Math.pow(b.getX() - a.getX(),2);
 		double y = (float) Math.pow(b.getY() - a.getY(),2);
 		
 		double distancia = Math.sqrt(x+y);
